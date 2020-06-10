@@ -5,7 +5,7 @@ try:
     doctors_link = []
     full_link = []
 
-    for i in range(1,2):
+    for i in range(1,253):
         a = 'https://www.healthgrades.com/find-a-doctor/a-z/a-' + f'{i}'
         results = requests.get(a)
 
